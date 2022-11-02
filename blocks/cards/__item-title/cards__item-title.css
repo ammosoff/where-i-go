@@ -1,2 +1,19 @@
 .cards__item-title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1130px) {
+  .cards__item-title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards__item-title {
+    font-size: 27px;
+  }
 }

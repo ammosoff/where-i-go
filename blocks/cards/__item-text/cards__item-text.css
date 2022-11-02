@@ -1,2 +1,12 @@
 .cards__item-text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .cards__item-text {
+    width: 100%;
+  }
 }

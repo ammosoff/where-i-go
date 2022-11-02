@@ -1,2 +1,19 @@
 .cards__item {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+}
+
+.cards__item:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 600px) {
+  .cards__item {
+    flex-direction: column;
+  }
+
+  .cards__item:nth-of-type(2n) {
+    flex-direction: column;
+  }
 }

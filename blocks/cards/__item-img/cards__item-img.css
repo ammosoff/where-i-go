@@ -1,2 +1,23 @@
 .cards__item-img {
+  flex-basis: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.cards__item:first-of-type .cards__item-img {
+  background-image: url(../../../images/places-forest.jpeg);
+}
+
+.cards__item:nth-of-type(2) .cards__item-img {
+  background-image: url(../../../images/places-mountains.jpeg);
+}
+
+.cards__item:nth-of-type(3) .cards__item-img {
+  background-image: url(../../../images/places-black-sea.jpeg);
+}
+
+@media screen and (max-width: 600px) {
+  .cards__item-img {
+    padding-bottom: 100%;
+  }
 }
