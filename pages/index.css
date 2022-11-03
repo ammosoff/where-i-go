@@ -1,11 +1,12 @@
 @import url(../vendor/normalize.css);
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap");
 @import url(../vendor/variables.css);
-
 @import url(../blocks/root/root.css);
-
 @import url(../blocks/header/header.css);
-
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__links/menu__links.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/feedback/feedback.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__item-img/cards__item-img.css);
