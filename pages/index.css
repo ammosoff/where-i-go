@@ -3,8 +3,10 @@
 @import url(../vendor/variables.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/feedback/feedback.css);
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__description/intro__description.css);
 @import url(../blocks/intro/__section-subtitle/intro__section-subtitle.css);
 @import url(../blocks/intro/__img/intro__img.css);
 

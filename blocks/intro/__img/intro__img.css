@@ -9,7 +9,6 @@
 @media screen and (max-width: 1130px) {
   .intro__img {
     max-width: 316px;
-    min-height: 250px;
     max-height: 316px;
   }
 }
