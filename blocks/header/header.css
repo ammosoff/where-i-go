@@ -7,12 +7,25 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
-@media screen and (max-width: 620px) {
+.header::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    min-height: 40px;
+  }
+}
+
+/* @media screen and (max-width: 620px) {
   .header {
     padding-top: 25px;
     min-height: 150px;
     align-items: flex-start;
   }
-}
+} */

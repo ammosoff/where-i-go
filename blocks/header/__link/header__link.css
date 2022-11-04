@@ -4,16 +4,16 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
-  transition: opacity .2s linear;
+  transition: opacity 0.2s linear;
 }
 
 .header__link:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
-@media screen and (max-width: 620px) {
+/* @media screen and (max-width: 620px) {
   .header__link {
     font-weight: 600;
     font-size: 20px;
   }
-}
+} */
