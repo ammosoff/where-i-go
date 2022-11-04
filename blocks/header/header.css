@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  min-height: 70px;
+  box-sizing: border-box;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 620px) {
+  .header {
+    min-height: 100px;
+    align-items: center;
+  }
+}
