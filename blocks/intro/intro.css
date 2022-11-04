@@ -1,0 +1,16 @@
+.intro {
+  width: 100%;
+  padding: 10% 13% 10% 5%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 620px) {
+  .intro {
+    flex-direction: column-reverse;
+    padding: 70px 35px;
+  }
+}

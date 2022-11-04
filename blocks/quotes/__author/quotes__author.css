@@ -1,0 +1,20 @@
+.quotes__author {
+  margin: 0 auto 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1130px) {
+  .quotes__author {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .quotes__author {
+    font-size: 12px;
+  }
+}

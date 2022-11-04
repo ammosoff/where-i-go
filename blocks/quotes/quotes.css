@@ -1,0 +1,12 @@
+.quotes {
+  width: 100%;
+  min-height: 560px;
+  padding: 10% 5%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .quotes {
+    padding: 70px 35px;
+  }
+}
