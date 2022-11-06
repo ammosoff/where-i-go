@@ -8,4 +8,6 @@
 
 HTML, CSS, адаптивная верстка, семантическая разметка, media queries, Flexbox, БЭМ. В качестве организации файловой структуры используется Nested БЭМ.
 
+Авторы проекта: [Екатерина Терентьева](https://github.com/tereneka) и [Николай Аммосов](https://github.com/ammosoff)
+
 Ссылка на страницу проекта [Куда я поеду](https://ammosoff.github.io/where-i-go/)
